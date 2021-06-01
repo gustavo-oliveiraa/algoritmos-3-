@@ -1,5 +1,5 @@
-/*2. Faça um algoritmo que leia dois números calcule o resultado da multiplicação de um pelo
-outro sem utilizar a operação de multiplicação (ou seja, utilizando apenas soma)*/
+/*2. FaÃ§a um algoritmo que leia dois nÃºmeros calcule o resultado da multiplicaÃ§Ã£o de um pelo
+outro sem utilizar a operaÃ§Ã£o de multiplicaÃ§Ã£o (ou seja, utilizando apenas soma)*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -8,15 +8,15 @@ outro sem utilizar a operação de multiplicação (ou seja, utilizando apenas soma)
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-	int contador, soma=0, soma2=0;
+	int contador;
 	float numeroUm, numeroDois, resultado;
 	
-	printf("----------------------------------Programa para calculo de multiplicação----------------------------------------\n");
+	printf("----------------------------------Programa para calculo de multiplicaÃ§Ã£o----------------------------------------\n");
 	
-	printf("Digite o valor do primeiro número, que deseja multiplicar:");
+	printf("Digite o valor do primeiro nÃºmero, que deseja multiplicar:");
 	scanf("%f", &numeroUm);
 	fflush(stdin);
-	printf("Digite o valor do segundo número, que deseja multiplicar:");
+	printf("Digite o valor do segundo nÃºmero, que deseja multiplicar:");
 	scanf("%f", &numeroDois);
 	fflush(stdin);
 	
@@ -24,7 +24,7 @@ int main(){
 		resultado = resultado + numeroUm;
 	}
 	
-	printf("O resultado da multiplicação é: %.1f.\n", resultado);
+	printf("O resultado da multiplicaÃ§Ã£o Ã©: %.1f.\n", resultado);
 	
 	system("pause");
 	return 0;
