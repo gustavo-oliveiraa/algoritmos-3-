@@ -15,9 +15,6 @@ disponível e a solicitação deve ser feita novamente sobre qual fruta ele dese
 #include<ctype.h>
 #include<locale.h>
 
-int pedirFruta();
-void pulaLinhas(int numeroDeLinhas);
-
 int main(){
     setlocale(LC_ALL, "Portuguese");
     int frutaId; 
