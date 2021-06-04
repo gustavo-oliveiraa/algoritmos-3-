@@ -1,5 +1,5 @@
-/*5. Elabore um algoritmo para calcular N! (fatorial de N) sendo que o valor inteiro de N È
-fornecido pelo usu·rio. Sabe-se que: N! = 1x2x...x N-1 x N e 0! = 1. Use o enquanto...faÁa.*/
+/*5. Elabore um algoritmo para calcular N! (fatorial de N) sendo que o valor inteiro de N √©
+fornecido pelo usu√°rio. Sabe-se que: N! = 1x2x...x N-1 x N e 0! = 1. Use o enquanto...fa√ßa.*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -16,7 +16,7 @@ int main(){
 	fflush(stdin);
 	
 	if(valorN<0){
-		printf("Somente n˙meros inteiros positivos.\n");
+		printf("Somente n√∫meros inteiros positivos.\n");
 	}else if(valorN==0){
 		printf("Fatorial de 0 e: 1\n");
 	}else{
@@ -27,6 +27,6 @@ int main(){
 		printf("Fatorial calculado: %d\n", fatorial);
 	}
 	
-	system("pause");
+    system("pause");
     return 0;
 }
