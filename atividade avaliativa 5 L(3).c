@@ -25,9 +25,10 @@ int main(){
 		fatorial = fatorial * contador;
 		contador++;
 		}
-		printf("Fatorial calculado: %d\n", fatorial);
 	}
 	
-    system("pause");
-    return 0;
+	printf("Fatorial calculado: %d\n", fatorial);	
+	
+        system("pause");
+        return 0;
 }
